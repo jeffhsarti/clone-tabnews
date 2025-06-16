@@ -8,6 +8,8 @@
     "build:analyze": "next build --analyze",
     "start": "next start",
     "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "lint": "next lint",
     "format": "next format",
     "analyze": "next analyze",
@@ -24,12 +26,13 @@
   },
   "homepage": "https://github.com/jeffhsarti/clone-tabnews#readme",
   "dependencies": {
-    "next": "^13.1.6",
+    "next": "^15.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "eslint": "8.0.0",
-    "eslint-config-next": "13.1.6"
+    "eslint-config-next": "13.1.6",
+    "prettier": "^3.5.3"
   }
 }
